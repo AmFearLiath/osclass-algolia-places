@@ -96,11 +96,8 @@ function algolia_footer() {
         $(document).ready(function(){    
             $("#sCountry").on("change", function(event){        
                 var selCountry = $(this).val().toLowerCase();
-                var parent = $("#sCity").parent("span"),
-                    pre = parent.children("pre");
-                    
+                var parent = $("#sCity").parent("span");                    
                 $("#sCity").val("");
-                $(pre).html("");
                 
                 loadPlaces("'.$locale.'", (selCountry.length >=1 ? selCountry : "'.($countries ? $countries : 'none').'")'.(!empty($appid) && !empty($appkey) ? ', "'.$appid.','.$appkey.'"' : '').');      
             });        
