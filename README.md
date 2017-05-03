@@ -10,7 +10,7 @@ in index.php maybe you have to modify some container names in the used javascrip
 $(document).ready(function(){    
     $("#sCountry").on("change", function(event){        
         var selCountry = $(this).val().toLowerCase();
-        var parent = $("#sCity").parent("span"),            
+        var parent = $("#sCity").parent("span");            
         $("#sCity").val("");
         
         loadPlaces("'.$locale.'", (selCountry.length >=1 ? selCountry : "'.($countries ? $countries : 'none').'")'.(!empty($appid) && !empty($appkey) ? ', "'.$appid.','.$appkey.'"' : '').');      
