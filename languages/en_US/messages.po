@@ -1,0 +1,128 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Algolia Places\n"
+"POT-Creation-Date: 2017-01-20 20:15+0100\n"
+"PO-Revision-Date: 2017-01-20 20:15+0100\n"
+"Last-Translator: \n"
+"Language-Team: Liath <liath@amfearliath.tk>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/config.php:52
+msgid "Activate Algolia Places"
+msgstr ""
+
+#: admin/config.php:55
+msgid "Check this box to activate the plugin and make use of algolia places"
+msgstr ""
+
+#: admin/config.php:56
+msgid ""
+"If you are using the autocomplete from your theme or osclass, you should "
+"disable it, before using this plugin."
+msgstr ""
+
+#: admin/config.php:60
+msgid "API Status"
+msgstr ""
+
+#: admin/config.php:61
+msgid ""
+"<a target=\"_blank\" href=\"https://www.algolia.com/dashboard/status\">Here</"
+"a> you can see your Statistiks on Algolia Places API Credentials"
+msgstr ""
+
+#: admin/config.php:64
+msgid "API Credentials"
+msgstr ""
+
+#: admin/config.php:65
+msgid ""
+"Enter here your <a target=\"_blank\" href=\"https://www.algolia.com/users/"
+"sign_up/places\">API Credentials</a> if you want to increase you free amount "
+"of searches from 1.000/day to 100.000/month."
+msgstr ""
+
+#: admin/config.php:68
+msgid "Application ID"
+msgstr ""
+
+#: admin/config.php:72
+msgid "API Key"
+msgstr ""
+
+#: admin/config.php:80
+msgid "Language Support"
+msgstr ""
+
+#: admin/config.php:83
+msgid "Check this box to activate the language support."
+msgstr ""
+
+#: admin/config.php:84
+msgid "This option shows the results in the user language"
+msgstr ""
+
+#: admin/config.php:87
+msgid ""
+"<a href=\"https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes#Table\">ISO "
+"639-1</a> Language Codes"
+msgstr ""
+
+#: admin/config.php:88
+msgid "Enter here the supported language codes"
+msgstr ""
+
+#: admin/config.php:102
+msgid ""
+"<a href=\"https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes#Table\">ISO "
+"639-1</a> Standard Language Code"
+msgstr ""
+
+#: admin/config.php:103
+msgid "Enter here the standard language code"
+msgstr ""
+
+#: admin/config.php:111
+msgid "Country Support"
+msgstr ""
+
+#: admin/config.php:114
+msgid "Check this box to restrict the results to the countrys used in osclass"
+msgstr ""
+
+#: admin/config.php:115
+msgid "With this option only results from selected countries are shown."
+msgstr ""
+
+#: admin/config.php:118
+msgid ""
+"<a href=\"https://en.wikipedia.org/wiki/"
+"ISO_3166-1#Officially_assigned_code_elements\">ISO 3166-1</a> Country Codes"
+msgstr ""
+
+#: admin/config.php:119
+msgid "Enter here the supported country codes (separated by ,)"
+msgstr ""
+
+#: admin/config.php:130
+msgid "Save"
+msgstr ""
+
+#: index.php:51 index.php:130
+msgid "Algolia Places"
+msgstr ""
+
+#: index.php:132
+msgid "Settings"
+msgstr ""
+
+#~ msgid "Set the Durations that can be choose."
+#~ msgstr "Setze hier die Laufzeiten die auswählbar sein sollen"

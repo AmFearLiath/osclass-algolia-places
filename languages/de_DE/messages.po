@@ -1,0 +1,206 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Algolia Places\n"
+"POT-Creation-Date: 2017-01-20 20:08+0100\n"
+"PO-Revision-Date: 2017-01-20 20:14+0100\n"
+"Last-Translator: \n"
+"Language-Team: Liath <liath@amfearliath.tk>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/config.php:52
+msgid "Activate Algolia Places"
+msgstr "Algolia Places aktivieren"
+
+#: admin/config.php:55
+msgid "Check this box to activate the plugin and make use of algolia places"
+msgstr ""
+"Durch aktivieren dieser Option wird Algolia Places in Deinem System verwendet"
+
+#: admin/config.php:56
+msgid ""
+"If you are using the autocomplete from your theme or osclass, you should "
+"disable it, before using this plugin."
+msgstr ""
+"Wenn Du in Deinem Template die Autovervollständigung von OSClass nutzt, muss "
+"diese unbedingt deaktiviert werden."
+
+#: admin/config.php:60
+msgid "API Status"
+msgstr "API STatus"
+
+#: admin/config.php:61
+msgid ""
+"<a target=\"_blank\" href=\"https://www.algolia.com/dashboard/status\">Here</"
+"a> you can see your Statistiks on Algolia Places API Credentials"
+msgstr ""
+"<a target=\"_blank\" href=\"https://www.algolia.com/dashboard/status\">Hier</"
+"a> kannst Du aktuelle Statistiken über Deinen API Account einsehen"
+
+#: admin/config.php:64
+msgid "API Credentials"
+msgstr "API Zugangsdaten"
+
+#: admin/config.php:65
+msgid ""
+"Enter here your <a target=\"_blank\" href=\"https://www.algolia.com/users/"
+"sign_up/places\">API Credentials</a> if you want to increase you free amount "
+"of searches from 1.000/day to 100.000/month."
+msgstr ""
+"Gib hier Deine <a target=\"_blank\" href=\"https://www.algolia.com/users/"
+"sign_up/places\">API Zugangsdaten</a> ein, wenn Du das Limit von 1.000 "
+"Aufrufen/Tag auf 100.000 Aufrufe/Monat erhöhen möchtest."
+
+#: admin/config.php:68
+msgid "Application ID"
+msgstr "App ID"
+
+#: admin/config.php:72
+msgid "API Key"
+msgstr "API Schlüssel"
+
+#: admin/config.php:80
+msgid "Language Support"
+msgstr "Sprachunterstützung"
+
+#: admin/config.php:83
+msgid "Check this box to activate the language support."
+msgstr "Aktivieren um die Sprachunterstützung einzuschalten."
+
+#: admin/config.php:84
+msgid "This option shows the results in the user language"
+msgstr ""
+"Diese Funktion zeigt die Ergebnisse in der vom Benutzer eingestellten Sprache"
+
+#: admin/config.php:87
+msgid ""
+"<a href=\"https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes#Table\">ISO "
+"639-1</a> Language Codes"
+msgstr ""
+"<a href=\"https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes#Table\">ISO "
+"639-1</a> Sprach Codes"
+
+#: admin/config.php:88
+msgid "Enter here the supported language codes"
+msgstr "Gib hier die unterstützten Sprach Codes ein"
+
+#: admin/config.php:102
+msgid ""
+"<a href=\"https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes#Table\">ISO "
+"639-1</a> Standard Language Code"
+msgstr ""
+"<a href=\"https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes#Table\">ISO "
+"639-1</a> Standard Sprach Code"
+
+#: admin/config.php:103
+msgid "Enter here the standard language code"
+msgstr "Gib hier den Standard Sprach Code ein"
+
+#: admin/config.php:111
+msgid "Country Support"
+msgstr "Länder Unterstützung"
+
+#: admin/config.php:114
+msgid "Check this box to restrict the results to the countrys used in osclass"
+msgstr "Aktivieren um die Länderunterstützung zu aktivieren"
+
+#: admin/config.php:115
+msgid "With this option only results from selected countries are shown."
+msgstr ""
+"Diese ermöglicht es, Ergebnisse nur aus den vordefinierten Ländern anzeigen "
+"zu lassen"
+
+#: admin/config.php:118
+msgid ""
+"<a href=\"https://en.wikipedia.org/wiki/"
+"ISO_3166-1#Officially_assigned_code_elements\">ISO 3166-1</a> Country Codes"
+msgstr ""
+"<a href=\"https://en.wikipedia.org/wiki/"
+"ISO_3166-1#Officially_assigned_code_elements\">ISO 3166-1</a> Länder Codes"
+
+#: admin/config.php:119
+msgid "Enter here the supported country codes (separated by ,)"
+msgstr "Gib hier die unterstützten Länder Codes ein (getrennt mit ,)"
+
+#: admin/config.php:130
+msgid "Save"
+msgstr "Speichern"
+
+#: index.php:51 index.php:130
+msgid "Algolia Places"
+msgstr "Algolia Places"
+
+#: index.php:132
+msgid "Settings"
+msgstr "Einstellungen"
+
+#~ msgid "Ad Duration Time"
+#~ msgstr "Laufzeit für Angebote"
+
+#~ msgid "This plugin allows the user, to set the duration for new ads"
+#~ msgstr ""
+#~ "Dieses Plugin erlaubt dem Nutzer die Laufzeit für seine Anzeigen "
+#~ "einzustellen."
+
+#~ msgid "Select Durations"
+#~ msgstr "Laufzeiten auswählen"
+
+#~ msgid "Set the Durations that can be choose. (separated by ,)"
+#~ msgstr ""
+#~ "Stelle hier die Laufzeiten ein die auswählbar sein sollen (getrennt mit ,)"
+
+#~ msgid "Selectbox on item post/edit"
+#~ msgstr "Auswahlbox auf der Angebote erstellen/bearbeiten Seite"
+
+#~ msgid ""
+#~ "To display a Selectbox, where seller can change the duration of there ad, "
+#~ "place the code below in item.php where you want to show the select box"
+#~ msgstr ""
+#~ "Um eine Auswahlbox anzeigen zu lassen, mit der die Nutzer die Laufzeit "
+#~ "bestimmen können, platziere diesen Code in Deiner item.php wo Du "
+#~ "möchtest, dass die Auswahlbox angezeigt wird."
+
+#~ msgid "or"
+#~ msgstr "oder"
+
+#~ msgid "Show Selectbox"
+#~ msgstr "Auswahlbox anzeigen"
+
+#~ msgid ""
+#~ "This option shows an Selectbox on the end of the form on item post/edit "
+#~ "page"
+#~ msgstr ""
+#~ "Diese Einstellung aktiviert die Auswahlbox am Ende des Formulars für "
+#~ "Anzeigen erstellen oder bearbeiten"
+
+#~ msgid "Form Styling"
+#~ msgstr "Formularstyling"
+
+#~ msgid ""
+#~ "To adjust the form styling to your needs, you only have to edit the "
+#~ "<strong>form.php</strong> and fit it to your template."
+#~ msgstr ""
+#~ "Um das Aussehen des Formulars anzupassen, bearbeite die form.php um das "
+#~ "Aussehen an Dein Template anzupassen."
+
+#~ msgid "Day"
+#~ msgstr "Tag"
+
+#~ msgid "Days"
+#~ msgstr "Tage"
+
+#~ msgid "Ad Duration"
+#~ msgstr "Angebotslaufzeit"
+
+#~ msgid "Select the duration for you ad"
+#~ msgstr "Wähle die Laufzeit für diese Anzeige"
+
+#~ msgid "Set the Durations that can be choose."
+#~ msgstr "Setze hier die Laufzeiten die auswählbar sein sollen"

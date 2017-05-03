@@ -1,0 +1,29 @@
+.algolia_help {
+    position: relative;
+}
+
+.algolia_help input {
+    height: 25px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.algolia_help .form-group {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+.algolia_help .half-row {
+    width: 50%;
+    float: left;
+}
+
+.algolia_help .info {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #018be3;   
+}
